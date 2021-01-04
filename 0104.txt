@@ -1,0 +1,30 @@
+Tag Attributes
+
+1) a tag : anchor - 다른 웹사이트로 이동하는 방법
+
+2) <a href="사이트주소" target="_self">여기를 클릭하세요.</a>
+        ----                                     -------------------
+       attribute               		       content
+
+※ target="_self" : 기본값(자기자신)
+※ target="_blank" : 탭으로 사이트 열기
+※ href : http reference or hyperlink reference
+
+3) <img>
+※ img 태그는 self-closing tag(자체 닫기 태그)
+
+--------
+More Tags and Head
+
+html파일은 <!DOCTYPE html>로 시작
+<!DOCTYPE html>
+<html>
+   <head>
+	// 웹사이트의 환경 설정
+	//head 태그에 속해있는 모든 태그들은 웹사이트에 보여지지 않는다.
+	<title></title>
+   </head>
+   <body>
+
+   </body>
+</html>
